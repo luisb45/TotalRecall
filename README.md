@@ -1,15 +1,19 @@
 ## Q + A
 1. How do we assign a value to a variable?
+  - We can use "let" or "const" followed by = then the value we want to assign the variable.
 2. How do we change the value of a variable?
+  - the variable followed by = then the new value.
 3. How do we assign an existing variable to a new variable?
+  - Existing variable = new variable
 4. Remind me, what are declare, assign, and define?
-
+  - Declare/define means creating a new variable
+  - Assign means to giving that variable a value
 ### Research 
 
 5. What is pseudocoding and why should you do it?
-
+  - pseudocoding is a informal way to write code and it doesn't matter how it is written. It's a way to visualize your thought process when creating code. 
 6. What percentage of time should be spent thinking about how you're going to solve a problem vs actually typing in code to solve it?
-
+  - 80% typing code and 20% thinking.
 ## Strings
 
 **For all other questions that involve writing code, you can solve them via the app.js folder under it's respectice section** 
