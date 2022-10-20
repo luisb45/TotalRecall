@@ -1,3 +1,4 @@
+/*
 // STRINGS 
 let firstVariable = "Hello World";
 firstVariable = 25; 
@@ -39,25 +40,71 @@ if (animal === "cow") {
     console.log('moooo');
 } else {
     console.log("Hey! You're not a cow.");
-}
-
-
-
-
+};
 
 
 
 //Driver's Ed
+let personsAge = 12;
+if (personsAge >= 16){
+    console.log('Here are the keys!');
+} else {
+    console.log("Sorry, you're too young.");
+};
 
 
 
 //LOOPS
+//A - The Basics
+for(let i = 0; i <= 10; i++) {
+    console.log(i);
+};
 
-//The Basics
 
-//Get Even
+let loop2 = "";
+for(let i = 10; i <= 400; i++) {
+    loop2 += i + " ";
+};
+console.log(loop2);
+
+
+let loop3 = "";
+for(let i = 12; i <= 4000; i++) {
+    if ( i % 3 == 0){
+        loop3 += i + " ";
+    }
+};
+console.log(loop3);
+
+
+
+
+//B - Get Even 
+for(let i = 1; i <= 100; i++){
+    if ( i % 2 == 0){
+       console.log( i + ' <-- is a even number '); 
+    } else {
+        console.log(i);
+    }
+};
+
+*/
+
+
 
 //Give Me 5
+for(let i = 1; i <= 100; i++){
+    if((i % 3 == 0) && (i % 5 == 0)) {
+        console.log('I found a ' + i + ". High five!" + ' Three is a crowd')
+    }else if (i % 5 == 0){
+        console.log('I found a ' + i + ". High five!");
+    } else if( i % 3 == 0){
+        console.log('I found a ' + i + '. Three is a crowd');
+    } else {
+        console.log(i);
+    }
+};
+
 
 //Savings Account
 
