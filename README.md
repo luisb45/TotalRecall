@@ -134,9 +134,10 @@ Check your work! Your `bank_account` should have $10,100 in it.
 
 ### A. Talk about it:
 What are the things in an array called?
+- elements
 Do Arrays guarantee those things will be in order?
 What real-life thing could you model with an array?
-
+- Arrays have a guarantee order of values. A real life thing that could be modeled in an array are grocery lists.
 
 
 ### B. Easy Does It
@@ -149,9 +150,9 @@ Create an array that contains three quotes and store it in a variable called quo
 Given the following array `const randomThings = [1, 10, "Hello", true]`
 
 - How do you access the 1st element in the array?
-
+  -randomThings[0]
 - Change the value of `"Hello"` to `"World"`
-
+  -
 - Check the value of the array to make sure it updated the array using `console.log()`
 
 

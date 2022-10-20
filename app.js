@@ -60,13 +60,11 @@ for(let i = 0; i <= 10; i++) {
     console.log(i);
 };
 
-
 let loop2 = "";
 for(let i = 10; i <= 400; i++) {
     loop2 += i + " ";
 };
 console.log(loop2);
-
 
 let loop3 = "";
 for(let i = 12; i <= 4000; i++) {
@@ -78,7 +76,6 @@ console.log(loop3);
 
 
 
-
 //B - Get Even 
 for(let i = 1; i <= 100; i++){
     if ( i % 2 == 0){
@@ -87,8 +84,6 @@ for(let i = 1; i <= 100; i++){
         console.log(i);
     }
 };
-
-*/
 
 
 
@@ -106,11 +101,62 @@ for(let i = 1; i <= 100; i++){
 };
 
 
+
 //Savings Account
+let bank_account = 0;
+for(let i = 1; i <= 100; i++){
+    bank_account += i * 2;
+}
+console.log(bank_account);
+
 
 
 
 //ARRAYS & CONTROL FLOW
+//Easy Does It
+const quotes = ["quote 1", "quote 2", "quote 3"];
 
 
 
+//Accessing elements
+const randomThings = [1, 10, "Hello", true]
+//1 
+randomThings[0];
+//2 
+randomThings[2] = 'World';
+//3
+console.log(randomThings);
+
+
+
+//Change values
+const ourClass = ["Salty", "Zoom", "Sardine", "Slack", "Github"]
+//1
+ourClass[2];
+//2
+ourClass[4] = 'Octocat';
+//3
+ourClass.push('Cloud City');
+console.log(ourClass);
+
+
+
+//Mix It Up
+const myArray = [5, 10, 500, 20]
+//1
+myArray.push('Aegon', 'String');
+//2
+myArray.shift();
+//3
+myArray.unshift('Bob Marley');
+//4
+myArray.pop();
+//5
+myArray.reverse();
+console.log(myArray);
+//Mutate is the act of changing the properties of a value.
+//Just the order of the array was changed.
+
+*/
+
+//Biggie Smalls
