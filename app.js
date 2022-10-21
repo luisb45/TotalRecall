@@ -311,10 +311,10 @@ console.log(maxOfThree(8, 8, 3));
 
 //H           //IDK//
 function printLongestWord(long) {
-    let longestWord = 0;
+    let longestWord = "";
     for(let i = 0; i < long.length; i++) {
-        if(long[i].length > longestWord){
-            longestWord = long[i].length;
+        if(longestWord.length < long[i].length){
+            longestWord = long[i];
         }
     }
     console.log(longestWord);
@@ -376,3 +376,4 @@ function oldAndLoud(person) {
 oldAndLoud(user);
 
 */
+

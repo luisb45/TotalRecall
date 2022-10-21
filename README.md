@@ -150,9 +150,9 @@ Create an array that contains three quotes and store it in a variable called quo
 Given the following array `const randomThings = [1, 10, "Hello", true]`
 
 - How do you access the 1st element in the array?
-  -randomThings[0]
+  
 - Change the value of `"Hello"` to `"World"`
-  -
+  
 - Check the value of the array to make sure it updated the array using `console.log()`
 
 
